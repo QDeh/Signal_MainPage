@@ -1,0 +1,15 @@
+.column-has-text-centered{
+    text-align: center;
+    padding: 80px 80px 0 80px;
+}
+
+h2{
+    margin-top: 10px;
+    margin-bottom: 12px;
+    font-size: 40px;
+}
+
+p{
+    margin-top: 0;
+    font-size: 20px;;
+}

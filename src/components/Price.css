@@ -1,0 +1,19 @@
+.price{
+    width: 682px;
+    border-radius: 16px;
+}
+
+.column-price{
+    width: 455px;
+    padding: 20px;
+}
+
+.column-is-hidden-touch{
+    width: 911px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.column-price > Button {
+    border: 1px;
+}

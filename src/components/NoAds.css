@@ -1,0 +1,16 @@
+.section-information{
+    padding: 48px;
+}
+
+.no-ads{
+    width: 682px;
+    border-radius: 16px;
+}
+
+ .section-information > .body1{
+    width: 423px;
+}
+
+.column-is-one-third{
+    width: 455px;
+}

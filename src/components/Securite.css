@@ -1,0 +1,9 @@
+.animation{
+    height:636px;
+}
+
+.animation-column{
+    display: flex;
+    justify-content: flex-end;
+    width: 850px;
+}

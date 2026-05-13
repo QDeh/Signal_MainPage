@@ -1,0 +1,49 @@
+.hero-main {
+  background-color: #9DBBF8;
+  color: #1b1b1b;
+  max-height: 760px;
+  padding-top: 81px;
+  height: 800px;
+}
+
+.hero-main h1 {
+  margin-bottom: 24px;
+  font-size:60px;
+}
+
+.hero-main .hero-body {
+  padding-bottom: 0;
+}
+.hero-main .subtitle {
+  color: #1b1b1b;
+  font-size: 20px;
+  line-height: 30px;
+}
+.hero-main .column-mobile-screenshots {
+  position: relative;
+  height: 500px;
+}
+.hero-main .column-mobile-screenshots img {
+  transform: rotate(22.5deg);
+  width: 320px;
+}
+.hero-main .column-mobile-screenshots .screenshot1 {
+  margin-left: -50px;
+  margin-top: 55px;
+}
+
+.hero-main .column-mobile-screenshots .screenshot2 {
+  margin-left: -32px;
+  position: absolute;
+  top: 0px;
+}
+
+.columns{
+    display: flex;
+}
+
+.text-column{
+    margin-top: 120px;
+    width: 520px;
+    margin-right: 100px;
+}

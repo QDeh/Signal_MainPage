@@ -1,0 +1,28 @@
+.footer{
+    background: #3c3744;
+    color: rgb(233,233,233);
+    text-decoration: none;
+    padding: 48px;
+}
+
+.footer a {
+    color: rgb(233,233,233);
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer .column{
+    min-width: 180px;
+    max-width: 547px;
+}
+
+.footer ul{
+    list-style: none;
+}
+
+.column strong{
+    padding: 21px;
+}
