@@ -1,20 +1,45 @@
 # Signal_MainPage
 
-Le but de ce projet est de reproduire la page d'accueil de Signal grâce à React: [https://signal.org/fr/](https://signal.org/fr/)
+Le but de ce projet est de reproduire la page d'accueil de Signal grâce à React : [https://signal.org/fr/](https://signal.org/fr/)
 
 ## Documentation sur React
 
-### Qu'est ce que React
+### Qu'est‑ce que React ?
 
-React est une bibliothèque JavaScript créée par Meta (Facebook) en 2013 pour construire des interfaces utilisateur (UI).
+React est une **bibliothèque JavaScript** créée par Meta en 2013 pour construire des interfaces utilisateur (UI) modernes et dynamiques.
 
-Ces UI sont construites à partir de **composants** qui sont des petits blocs d'interfaces réutilisables qui permettent une harmonie visuelle ainsi qu'un gain de temps.
-Pour rendre les composants réutilisables, on va utiliser des **props** qui sont équivalents à des paramètres de fonctions, et qui vont permettre de leur passer des données.
+Elle repose sur le concept de **composants** : ce sont des blocs d’interface réutilisables permettant :
 
-### Pourquoi utiliser React plutôt qu'un framework ?
+- une meilleure organisation du code
+- une cohérence visuelle
+- une maintenance facilitée
+- un développement plus rapide
 
- [Ce site](https://dyma.fr/blog/quel-framework-choisir-angular-vue-js-ou-react/), nous fournit des données récentes sur les 3 solutions frontend les plus utilisées : React (la seule bibliothèque) ainsi qu'Angular et Vue.js qui sont deux frameworks. En les analysant, on voit que :
-    - React est le terme des trois le plus recherché, ce qui montre une dynamique plus importante concernant l'utilisation de cette bibliothèque
-    - React est beaucoup plus télechargé qu'Angular et Vue.js, il est donc beaucoup plus éprouvé par la communauté
+Pour rendre ces composants flexibles, React utilise des **props**, qui fonctionnent comme des paramètres permettant de transmettre des données d’un composant parent à un composant enfant.
 
-De plus, React n'est pas un framework, ce qui le rend bien plus léger et flexible, mais aussi plus accessible que les autres concurrents du marché.
+---
+
+### Pourquoi utiliser React plutôt qu’un framework ?
+
+Selon l’analyse présentée dans l’article suivant : [https://dyma.fr/blog/quel-framework-choisir-angular-vue-js-ou-react/](https://dyma.fr/blog/quel-framework-choisir-angular-vue-js-ou-react/)
+
+Plusieurs éléments ressortent :
+
+- **React est le terme le plus recherché** parmi React, Angular et Vue.js, ce qui montre une dynamique forte et un intérêt constant de la communauté.
+
+- **React est largement plus téléchargé** sur npm qu’Angular et Vue.js, ce qui indique qu’il est davantage utilisé, testé et éprouvé dans des projets réels.
+
+De plus, React utilise le DOM virtuel (VDOM). C'est un concept de programmation dans lequel une représentation virtuelle et légère d’une interface utilisateur (UI) est conservée en mémoire. Le but de ce stockage est d'effecuer une **réconciliation** (synchronisation) avec le DOM réel pour gagner en performances.
+
+---
+
+### Un avantage clé : React n’est pas un framework
+
+Contrairement à Angular et Vue.js, React est une **bibliothèque**, ce qui lui confère plusieurs avantages :
+
+- **Plus léger** : le cœur de React est minimaliste.
+- **Plus flexible** : il n’impose pas d’architecture stricte, ce qui permet de choisir librement les outils complémentaires.
+- **Plus accessible** : la courbe d’apprentissage est plus douce que celle d’Angular.
+- **Plus simple à intégrer** dans un projet existant, car il ne nécessite pas de restructurer toute l’application.
+
+Cette flexibilité permet d’adapter React à des projets de toutes tailles, du simple site vitrine à l’application web complexe.
